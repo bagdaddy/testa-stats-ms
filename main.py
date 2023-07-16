@@ -38,4 +38,4 @@ def calculate_probability():
     return jsonify({'probability': probability})
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5001)  # Change host and port as needed
+    app.run(host='0.0.0.0', port=5001)  # Change host and port as needed
